@@ -33,26 +33,26 @@
       </td>
       <td width="50%">
         <pre style="color: #FFFFFF; font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.4;">
-╔══════════════════════════════════╗
-║         SYSTEM INFORMATION       ║
-╠══════════════════════════════════╣
-║                                  ║
+╔═════════════════════════════════╗
+║         SYSTEM INFORMATION      ║
+╠═════════════════════════════════╣
+║                                 ║
 ║  USER: Symphony007              ║
 ║  LEVEL: B.Tech CSE Student      ║
 ║  STATUS: ACTIVE                 ║
 ║  MODE: LEARNING & BUILDING      ║
-║                                  ║
+║                                 ║
 ║  CURRENT MISSION:               ║
 ║  • Mastering Development        ║
 ║  • Exploring 3D Design          ║
 ║  • Diving into AI               ║
 ║  • Building Cool Projects       ║
-║                                  ║
+║                                 ║
 ║  SYSTEM: OPERATIONAL            ║
 ║  CREATIVITY: MAXIMUM            ║
 ║  CODE: FLOWING                  ║
-║                                  ║
-╚══════════════════════════════════╝
+║                                 ║
+╚═════════════════════════════════╝
         </pre>
       </td>
     </tr>
