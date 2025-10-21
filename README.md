@@ -33,26 +33,26 @@
       </td>
       <td width="50%">
         <pre style="color: #FFFFFF; font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.4;">
-╔═════════════════════════════════╗
-║         SYSTEM INFORMATION      ║
-╠═════════════════════════════════╣
-║                                 ║
+╔══════════════════════════════════╗
+║         SYSTEM INFORMATION       ║
+╠══════════════════════════════════╣
+║                                  ║
 ║  USER: Symphony007              ║
 ║  LEVEL: B.Tech CSE Student      ║
 ║  STATUS: ACTIVE                 ║
 ║  MODE: LEARNING & BUILDING      ║
-║                                 ║
+║                                  ║
 ║  CURRENT MISSION:               ║
 ║  • Mastering Development        ║
 ║  • Exploring 3D Design          ║
 ║  • Diving into AI               ║
 ║  • Building Cool Projects       ║
-║                                 ║
+║                                  ║
 ║  SYSTEM: OPERATIONAL            ║
 ║  CREATIVITY: MAXIMUM            ║
 ║  CODE: FLOWING                  ║
-║                                 ║
-╚═════════════════════════════════╝
+║                                  ║
+╚══════════════════════════════════╝
         </pre>
       </td>
     </tr>
@@ -65,7 +65,7 @@
 </div>
 
 <!-- Tech Stack Section -->
-<h2 align="center" style="color: #FFFFFF; font-family: 'Courier New', monospace; font-weight: bold;">TECH ARSENAL</h2>
+<h2 align="center" style="color: #FFFFFF; font-family: 'Courier New', monospace; font-weight: bold;">🛠️ TECH ARSENAL</h2>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=java,python,c,html,css,js,blender,mysql,git,figma&theme=dark&perline=5" />
@@ -76,41 +76,46 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 </div>
 
-<!-- GitHub Stats Section -->
-<h2 align="center" style="color: #FFFFFF; font-family: 'Courier New', monospace; font-weight: bold;">STATS DASHBOARD</h2>
+<!-- GitHub Analytics Section -->
+<h2 align="center" style="color: #FFFFFF; font-family: 'Courier New', monospace; font-weight: bold;">📊 GITHUB ANALYTICS</h2>
 
 <div align="center">
-  <table border="0" cellspacing="0" cellpadding="0">
-    <tr>
-      <td width="50%">
-        <img width="100%" src="https://github-readme-stats.vercel.app/api?username=Symphony007&show_icons=true&theme=dark&include_all_commits=true&count_private=true&border_radius=0&hide_border=true&bg_color=000000&title_color=FFFFFF&icon_color=FFFFFF&text_color=FFFFFF" alt="GitHub Stats"/>
-      </td>
-      <td width="50%">
-        <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Symphony007&theme=dark&hide_border=true&border_radius=0&background=000000&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF" alt="GitHub Streak"/>
-      </td>
-    </tr>
-  </table>
+  
+  ### 📈 PROFILE SUMMARY
+  <a href="https://github.com/Symphony007">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Symphony007&theme=radical" width="100%" />
+  </a>
+  
+  ### 📊 STATISTICS OVERVIEW
+  <div style="display: flex; justify-content: space-between; width: 100%; gap: 10px;">
+    <a href="https://github.com/Symphony007">
+      <img src="https://github-readme-stats.vercel.app/api?username=Symphony007&show_icons=true&theme=radical&hide_border=true&count_private=true" width="48%" />
+    </a>
+    <a href="https://github.com/Symphony007">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Symphony007&theme=radical&hide_border=true" width="48%" />
+    </a>
+  </div>
+  
+  ### 💻 MOST USED LANGUAGES
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Symphony007&layout=compact&theme=radical&hide_border=true" width="60%" />
+  
+  ### 🏆 PROFILE METRICS
+  <p>
+    <img src="https://komarev.com/ghpvc/?username=Symphony007&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
+    <img src="https://img.shields.io/github/followers/Symphony007?color=green&style=for-the-badge&label=FOLLOWERS" alt="Followers" />
+    <img src="https://img.shields.io/github/stars/Symphony007?color=yellow&style=for-the-badge&label=STARS" alt="Stars" />
+  </p>
+  
 </div>
 
-<br>
-
-<!-- Most Used Languages -->
+<!-- Pixel Divider -->
 <div align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Symphony007&layout=compact&theme=dark&hide_border=true&border_radius=0&bg_color=000000&title_color=FFFFFF&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 </div>
-
-<br>
 
 <!-- Activity Graph -->
 <div align="center">
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Symphony007&theme=github-dark&hide_border=true&bg_color=000000&color=FFFFFF&line=FFFFFF&point=FFFFFF&area=true&radius=0&custom_title=COMMIT+HISTORY" alt="Activity Graph"/>
-</div>
-
-<br>
-
-<!-- Contribution Stats -->
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Symphony007&theme=github_dark" width="95%" />
 </div>
 
 <!-- Pixel Divider -->
@@ -119,7 +124,7 @@
 </div>
 
 <!-- Connect Section -->
-<h2 align="center" style="color: #FFFFFF; font-family: 'Courier New', monospace; font-weight: bold;">CONNECT WITH ME</h2>
+<h2 align="center" style="color: #FFFFFF; font-family: 'Courier New', monospace; font-weight: bold;">🌐 CONNECT WITH ME</h2>
 
 <div align="center">
   <a href="https://www.linkedin.com/in/deepmalya-mallick-62a321305/">
@@ -139,7 +144,7 @@
 </div>
 
 <!-- Beyond The Code Section -->
-<h2 align="center" style="color: #FFFFFF; font-family: 'Courier New', monospace; font-weight: bold;">BEYOND THE CODE</h2>
+<h2 align="center" style="color: #FFFFFF; font-family: 'Courier New', monospace; font-weight: bold;">🎮 BEYOND THE CODE</h2>
 
 <div align="center">
   <table>
@@ -172,7 +177,7 @@
 
 <!-- Random Dev Quote -->
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=CODE+IS+LIKE+HUMOR.+WHEN+YOU+HAVE+TO+EXPLAIN+IT%2C+IT%27S+BAD.&author=Cory+House&border=true&borderColor=FFFFFF" alt="Dev Quote" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote" />
 </div>
 
 <br>
