@@ -14,12 +14,12 @@
 <!-- Profile Badges -->
 <div align="center">
   <a href="https://github.com/Symphony007">
-    <img src="https://img.shields.io/github/followers/Symphony007?style=for-the-badge&logo=github&labelColor=000000&color=FFFFFF&logoColor=FFFFFF" alt="GitHub followers" />
+    <img src="https://img.shields.io/github/followers/Symphony007?style=for-the-badge&logo=github&labelColor=000000&color=6C63FF&logoColor=6C63FF" alt="GitHub followers" />
   </a>
   <a href="https://github.com/Symphony007?tab=repositories&sort=stargazers">
-    <img src="https://img.shields.io/github/stars/Symphony007?style=for-the-badge&logo=github&labelColor=000000&color=FFFFFF&logoColor=FFFFFF" alt="GitHub Stars" />
+    <img src="https://img.shields.io/github/stars/Symphony007?style=for-the-badge&logo=github&labelColor=000000&color=FFD700&logoColor=FFD700" alt="GitHub Stars" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=Symphony007&style=for-the-badge&color=FFFFFF&label=VISITORS" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Symphony007&style=for-the-badge&color=00FFFF&label=VISITORS" alt="Profile views" />
 </div>
 
 <br>
@@ -101,9 +101,9 @@
   
   ### 🏆 PROFILE METRICS
   <p>
-    <img src="https://komarev.com/ghpvc/?username=Symphony007&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
-    <img src="https://img.shields.io/github/followers/Symphony007?color=green&style=for-the-badge&label=FOLLOWERS" alt="Followers" />
-    <img src="https://img.shields.io/github/stars/Symphony007?color=yellow&style=for-the-badge&label=STARS" alt="Stars" />
+    <img src="https://komarev.com/ghpvc/?username=Symphony007&color=6C63FF&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
+    <img src="https://img.shields.io/github/followers/Symphony007?color=00FF00&style=for-the-badge&label=FOLLOWERS" alt="Followers" />
+    <img src="https://img.shields.io/github/stars/Symphony007?color=FFD700&style=for-the-badge&label=STARS" alt="Stars" />
   </p>
   
 </div>
@@ -115,7 +115,7 @@
 
 <!-- Activity Graph -->
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Symphony007&theme=github-dark&hide_border=true&bg_color=000000&color=FFFFFF&line=FFFFFF&point=FFFFFF&area=true&radius=0&custom_title=COMMIT+HISTORY" alt="Activity Graph"/>
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Symphony007&theme=radical&hide_border=true&bg_color=000000&color=FFFFFF&line=6C63FF&point=FFD700&area=true&radius=0&custom_title=COMMIT+HISTORY" alt="Activity Graph"/>
 </div>
 
 <!-- Pixel Divider -->
@@ -128,13 +128,13 @@
 
 <div align="center">
   <a href="https://www.linkedin.com/in/deepmalya-mallick-62a321305/">
-    <img src="https://img.shields.io/badge/LINKEDIN-FFFFFF?style=for-the-badge&logo=linkedin&logoColor=000000&labelColor=000000" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn"/>
   </a>
   <a href="mailto:mallickdeepmalya05@gmail.com">
-    <img src="https://img.shields.io/badge/GMAIL-FFFFFF?style=for-the-badge&logo=gmail&logoColor=000000&labelColor=000000" alt="Gmail"/>
+    <img src="https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="Gmail"/>
   </a>
   <a href="https://github.com/Symphony007">
-    <img src="https://img.shields.io/badge/GITHUB-FFFFFF?style=for-the-badge&logo=github&logoColor=000000&labelColor=000000" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="GitHub"/>
   </a>
 </div>
 
@@ -155,7 +155,7 @@
         <br><sub style="color: #FFFFFF; font-family: 'Courier New', monospace; font-size: 10px;">KICKING IT ON & OFF SCREEN</sub>
       </td>
       <td width="25%" align="center">
-        <img src="https://img.icons8.com/color/96/000000/chess--v1.png" width="60"/>
+        <img src="https://img.icons8.com/color/96/000000/chess.png" width="60"/>
         <br><sub style="color: #FFFFFF; font-family: 'Courier New', monospace; font-size: 12px;"><b>♟️ CHESS</b></sub>
         <br><sub style="color: #FFFFFF; font-family: 'Courier New', monospace; font-size: 10px;">STRATEGIC MOVES IRL</sub>
       </td>
