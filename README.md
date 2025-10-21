@@ -33,26 +33,26 @@
       </td>
       <td width="50%">
         <pre style="color: #FFFFFF; font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.4;">
-╔══════════════════════════════════╗
-║         SYSTEM INFORMATION       ║
-╠══════════════════════════════════╣
-║                                  ║
+╔═════════════════════════════════╗
+║         SYSTEM INFORMATION      ║
+╠═════════════════════════════════╣
+║                                 ║
 ║  USER: Symphony007              ║
 ║  LEVEL: B.Tech CSE Student      ║
 ║  STATUS: ACTIVE                 ║
 ║  MODE: LEARNING & BUILDING      ║
-║                                  ║
+║                                 ║
 ║  CURRENT MISSION:               ║
 ║  • Mastering Development        ║
 ║  • Exploring 3D Design          ║
 ║  • Diving into AI               ║
 ║  • Building Cool Projects       ║
-║                                  ║
+║                                 ║
 ║  SYSTEM: OPERATIONAL            ║
 ║  CREATIVITY: MAXIMUM            ║
 ║  CODE: FLOWING                  ║
-║                                  ║
-╚══════════════════════════════════╝
+║                                 ║
+╚═════════════════════════════════╝
         </pre>
       </td>
     </tr>
@@ -64,12 +64,14 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 </div>
 
-<!-- Tech Stack Section -->
-<h2 align="center" style="color: #FFFFFF; font-family: 'Courier New', monospace; font-weight: bold;">🛠️ TECH ARSENAL</h2>
+<!-- Tech Stack Section - Increased Size -->
+<h2 align="center" style="color: #FFFFFF; font-family: 'Courier New', monospace; font-weight: bold; font-size: 24px;">🛠️ TECH ARSENAL</h2>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=java,python,c,html,css,js,blender,mysql,git,figma&theme=dark&perline=5" />
+  <img src="https://skillicons.dev/icons?i=java,python,c,html,css,js,blender,mysql,git,figma&theme=dark&perline=5" style="transform: scale(1.2);" />
 </div>
+
+<br>
 
 <!-- Pixel Divider -->
 <div align="center">
@@ -96,8 +98,8 @@
     </a>
   </div>
   
-  ### 💻 MOST USED LANGUAGES
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Symphony007&layout=compact&theme=radical&hide_border=true" width="60%" />
+  ### 💻 MOST USED LANGUAGES - Reduced Size
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Symphony007&layout=compact&theme=radical&hide_border=true" width="50%" />
   
   ### 🏆 PROFILE METRICS
   <p>
