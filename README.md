@@ -33,26 +33,26 @@
       </td>
       <td width="50%">
         <pre style="color: #FFFFFF; font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.4;">
-╔═════════════════════════════════╗
-║         SYSTEM INFORMATION      ║
-╠═════════════════════════════════╣
-║                                 ║
+╔══════════════════════════════════╗
+║         SYSTEM INFORMATION       ║
+╠══════════════════════════════════╣
+║                                  ║
 ║  USER: Symphony007              ║
 ║  LEVEL: B.Tech CSE Student      ║
 ║  STATUS: ACTIVE                 ║
 ║  MODE: LEARNING & BUILDING      ║
-║                                 ║
+║                                  ║
 ║  CURRENT MISSION:               ║
 ║  • Mastering Development        ║
 ║  • Exploring 3D Design          ║
 ║  • Diving into AI               ║
 ║  • Building Cool Projects       ║
-║                                 ║
+║                                  ║
 ║  SYSTEM: OPERATIONAL            ║
 ║  CREATIVITY: MAXIMUM            ║
 ║  CODE: FLOWING                  ║
-║                                 ║
-╚═════════════════════════════════╝
+║                                  ║
+╚══════════════════════════════════╝
         </pre>
       </td>
     </tr>
@@ -157,7 +157,7 @@
         <br><sub style="color: #FFFFFF; font-family: 'Courier New', monospace; font-size: 10px;">KICKING IT ON & OFF SCREEN</sub>
       </td>
       <td width="25%" align="center">
-        <img src="https://img.icons8.com/color/96/000000/chess.png" width="60"/>
+        <img src="https://img.icons8.com/color/96/000000/chess-board.png" width="60"/>
         <br><sub style="color: #FFFFFF; font-family: 'Courier New', monospace; font-size: 12px;"><b>♟️ CHESS</b></sub>
         <br><sub style="color: #FFFFFF; font-family: 'Courier New', monospace; font-size: 10px;">STRATEGIC MOVES IRL</sub>
       </td>
@@ -179,7 +179,7 @@
 
 <!-- Random Dev Quote -->
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=I+DON%27T+ALWAYS+TEST+MY+CODE%2C+BUT+WHEN+I+DO%2C+I+DO+IT+IN+PRODUCTION.&author=Anonymous+Developer" alt="Dev Quote" />
 </div>
 
 <br>
