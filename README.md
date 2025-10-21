@@ -1,11 +1,9 @@
-<!-- Retro Header Wave -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=DEEPMALYA.DEV&fontSize=60&fontAlignY=35&animation=twinkling&fontColor=00FF00&desc=Loading...&descAlignY=55&descSize=20"/>
-</div>
+<!-- Retro Header -->
+<h1 align="center" style="color: white;">Hi, I'm Deepmalya</h1>
 
 <!-- Typing Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&multiline=true&width=600&height=80&lines=GENERALIST+DEVELOPER;EXPLORING+DEV+%26+3D+DESIGN;BUILDING+%2B+LEARNING" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Blending+Creativity+With+Code" alt="Typing SVG" />
 </p>
 
 <!-- Pixel Divider -->
@@ -38,7 +36,6 @@
         <pre>
 ┌─────────────────────────┐
 │ > B.Tech CSE 2023-2027  │
-│ > Generalist Developer  │
 │ > Status: Building      │
 │ > Mode: Experimenting   │
 │                         │
@@ -65,25 +62,6 @@
   <img src="https://skillicons.dev/icons?i=java,python,c,html,css,js,blender,mysql,git,figma&theme=dark&perline=5" />
 </div>
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="33%">
-        <img src="https://img.shields.io/badge/LANGUAGES-000000?style=for-the-badge&logo=code&logoColor=00FF00" />
-        <br><sub>Java • Python • C • JS</sub>
-      </td>
-      <td align="center" width="33%">
-        <img src="https://img.shields.io/badge/DESIGN-000000?style=for-the-badge&logo=blender&logoColor=FF00FF" />
-        <br><sub>Blender • Figma</sub>
-      </td>
-      <td align="center" width="33%">
-        <img src="https://img.shields.io/badge/TOOLS-000000?style=for-the-badge&logo=git&logoColor=FFD700" />
-        <br><sub>Git • MySQL</sub>
-      </td>
-    </tr>
-  </table>
-</div>
-
 <!-- Pixel Divider -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
@@ -96,10 +74,10 @@
   <table border="0" cellspacing="0" cellpadding="0">
     <tr>
       <td width="50%">
-        <img width="100%" src="https://github-readme-stats.vercel.app/api?username=Symphony007&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&border_radius=0&hide_border=true&bg_color=0d1117&title_color=00FF00&icon_color=FFD700&text_color=00FF00" alt="GitHub Stats"/>
+        <img width="100%" src="https://github-readme-stats.vercel.app/api?username=Symphony007&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&border_radius=0&hide_border=true&bg_color=0d1117&title_color=FFFFFF&icon_color=FFD700&text_color=FFFFFF" alt="GitHub Stats"/>
       </td>
       <td width="50%">
-        <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Symphony007&theme=chartreuse-dark&hide_border=true&border_radius=0&background=0d1117&ring=00FF00&fire=FF00FF&currStreakLabel=00FF00" alt="GitHub Streak"/>
+        <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Symphony007&theme=chartreuse-dark&hide_border=true&border_radius=0&background=0d1117&ring=00FF00&fire=FF00FF&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF" alt="GitHub Streak"/>
       </td>
     </tr>
   </table>
@@ -109,15 +87,14 @@
 
 <!-- Most Used Languages -->
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Symphony007&layout=compact&theme=chartreuse-dark&hide_border=true&border_radius=0&bg_color=0d1117&title_color=00FF00&text_color=00FF00&langs_count=8" alt="Top Languages" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/wakatime?username=@Symphony007&theme=chartreuse-dark&hide_border=true&border_radius=0&bg_color=0d1117&title_color=00FF00&text_color=00FF00&layout=compact" alt="Wakatime Stats" />
+  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Symphony007&layout=compact&theme=chartreuse-dark&hide_border=true&border_radius=0&bg_color=0d1117&title_color=FFFFFF&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
 </div>
 
 <br>
 
 <!-- Activity Graph -->
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Symphony007&theme=github-compact&hide_border=true&bg_color=0d1117&color=00FF00&line=00FF00&point=FFD700&area=true&radius=0&custom_title=COMMIT.HISTORY" alt="Activity Graph"/>
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Symphony007&theme=github-compact&hide_border=true&bg_color=0d1117&color=FFFFFF&line=00FF00&point=FFD700&area=true&radius=0&custom_title=COMMIT.HISTORY" alt="Activity Graph"/>
 </div>
 
 <br>
@@ -191,11 +168,7 @@
 
 <br>
 
-<!-- Retro Footer -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling"/>
-</div>
-
+<!-- Footer -->
 <div align="center">
   <sub>⚡ Powered by curiosity and caffeine ⚡</sub>
   <br>
