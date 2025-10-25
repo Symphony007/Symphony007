@@ -85,21 +85,21 @@
   
   ### 📈 PROFILE SUMMARY
   <a href="https://github.com/Symphony007">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Symphony007&theme=radical" width="100%" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Symphony007&theme=radical&v=2" width="100%" />
   </a>
   
   ### 📊 STATISTICS OVERVIEW
   <div style="display: flex; justify-content: space-between; width: 100%; gap: 10px;">
     <a href="https://github.com/Symphony007">
-      <img src="https://github-readme-stats.vercel.app/api?username=Symphony007&show_icons=true&theme=radical&hide_border=true&count_private=true" width="48%" />
+      <img src="https://github-readme-stats.vercel.app/api?username=Symphony007&show_icons=true&theme=radical&hide_border=true&count_private=true&v=2" width="48%" />
     </a>
     <a href="https://github.com/Symphony007">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Symphony007&theme=radical&hide_border=true" width="48%" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Symphony007&theme=radical&hide_border=true&v=2" width="48%" />
     </a>
   </div>
   
   ### 💻 MOST USED LANGUAGES - Reduced Size
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Symphony007&layout=compact&theme=radical&hide_border=true" width="50%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Symphony007&layout=compact&theme=radical&hide_border=true&v=2" width="50%" />
   
   ### 🏆 PROFILE METRICS
   <p>
@@ -117,7 +117,7 @@
 
 <!-- Activity Graph -->
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Symphony007&theme=radical&hide_border=true&bg_color=000000&color=FFFFFF&line=6C63FF&point=FFD700&area=true&radius=0&custom_title=COMMIT+HISTORY" alt="Activity Graph"/>
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Symphony007&theme=radical&hide_border=true&bg_color=000000&color=FFFFFF&line=6C63FF&point=FFD700&area=true&radius=0&custom_title=COMMIT+HISTORY&v=2" alt="Activity Graph"/>
 </div>
 
 <!-- Pixel Divider -->
@@ -157,7 +157,7 @@
         <br><sub style="color: #FFFFFF; font-family: 'Courier New', monospace; font-size: 10px;">KICKING IT ON & OFF SCREEN</sub>
       </td>
       <td width="25%" align="center">
-        <img src="https://img.icons8.com/color/96/000000/chess-board.png" width="60"/>
+        <img src="https://img.icons8.com/color/96/000000/chess.png" width="60"/>
         <br><sub style="color: #FFFFFF; font-family: 'Courier New', monospace; font-size: 12px;"><b>♟️ CHESS</b></sub>
         <br><sub style="color: #FFFFFF; font-family: 'Courier New', monospace; font-size: 10px;">STRATEGIC MOVES IRL</sub>
       </td>
