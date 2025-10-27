@@ -182,7 +182,8 @@
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=I+DON%27T+ALWAYS+TEST+MY+CODE%2C+BUT+WHEN+I+DO%2C+I+DO+IT+IN+PRODUCTION.&author=Anonymous+Developer" alt="Dev Quote" />
 </div>
 
-<br>
+<br
+  
 
 <!-- Footer -->
 <div align="center">
