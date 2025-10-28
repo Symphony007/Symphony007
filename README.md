@@ -98,7 +98,7 @@
     </a>
   </div>
   
-  ### 💻 MOST USED LANGUAGES - Reduced Size
+  ### 💻 MOST USED LANGUAGES 
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Symphony007&layout=compact&theme=radical&hide_border=true&v=2" width="50%" />
   
   ### 🏆 PROFILE METRICS
