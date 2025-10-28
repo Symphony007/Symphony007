@@ -7,9 +7,9 @@
   <!-- Title -->
   <h1 style="font-weight:700; text-shadow:0 0 15px #6C63FF;">Hi, I'm Deepmalya</h1>
 
-  <!-- Typing Animation Tagline (Wider, Improved) -->
+  <!-- Typing Animation Tagline (Updated) -->
   <div style="margin: 0 auto; width: 450px;">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=22&pause=1300&color=6C63FF&center=true&vCenter=true&width=450&lines=BLENDING+CREATIVITY+WITH+CODE;DEVELOPER;DESIGNER;INNOVATOR;LIFELONG+LEARNER" alt="typing animation" style="width:100%;" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=18&pause=1300&color=6C63FF&center=true&vCenter=true&width=450&lines=Engineering+ideas,+designing+dimensions;Blending+creativity+with+code;Programming+the+future,+one+idea+at+a+time" alt="typing animation" style="width:100%;" />
   </div>
   
   <!-- Neon Divider -->
