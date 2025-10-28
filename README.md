@@ -4,8 +4,8 @@
 
     <h1 style="font-weight:700; text-shadow:0 0 15px #6C63FF;">Hi, I'm Deepmalya</h1>
 
-    <div style="margin: 0 auto; width: 450px;">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=22&pause=500&color=6C63FF&center=true&vCenter=true&width=450&lines=BLENDING+CREATIVITY+WITH+CODE;ENGINEERING+SOLUTIONS;DESIGNING+USER+EXPERIENCES;DRIVING+INNOVATION;WRITING+CLEAN+CODE" alt="typing animation" style="width:100%;" />
+    <div style="margin: 0 auto; width: 400px;">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=18&pause=200&color=6C63FF&center=true&vCenter=true&width=400&lines=ENGINEERING+IDEAS%2C+DESIGNING+DIMENSIONS;BLENDING+CREATIVITY+WITH+CODE;ENGINEERING+THE+FUTURE%2C+ONE+FRAME+AT+A+TIME" alt="typing animation" style="width:100%;" />
   </div>
   
     <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" width="100%" style="margin:10px 0;"/>
@@ -105,13 +105,13 @@
         <br><b>⚽ FOOTBALL</b><br><sub>KICKING IT ON & OFF SCREEN</sub>
       </td>
       <td align="center">
-                <img src="https://img.icons8.com/plasticine/100/chess-board.png" width="60" alt="Chess Icon"/>
+                <img src="https://raw.githubusercontent.com/yannickl/icons-for-github-profile/master/icons/chess.svg" width="60" alt="Chess Icon"/>
         <br><b>♟️ CHESS</b><br><sub>STRATEGIC MOVES IRL</sub>
       </td>
       <td align="center">
         <img src="https://img.icons8.com/color/96/controller.png" width="60"/>
         <br><b>🎮 GAMING</b><br><sub>EXPLORING VIRTUAL WORLDS</sub>
-        </td>
+      </td>
       <td align="center">
         <img src="https://img.icons8.com/color/96/cycling-mountain-bike.png" width="60"/>
         <br><b>🚴 CYCLING</b><br><sub>OUTDOORS RECHARGE</sub>
@@ -128,9 +128,17 @@
 </div>
 
 <style>
+/* 1. Keyframes for the Pulse effect on HR dividers */
 @keyframes pulse {
   0% {background-position: 0% 50%;}
   50% {background-position: 100% 50%;}
   100% {background-position: 0% 50%;}
+}
+
+/* 2. Fixes for scattered blue dashed lines (remove image/link borders) */
+/* This targets all linked images (badges, stats, etc.) to remove the default focus/link border */
+a img {
+  border: none !important;
+  outline: none !important;
 }
 </style>
