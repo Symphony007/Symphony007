@@ -7,7 +7,7 @@
   <!-- Title -->
   <h1 style="font-weight:700; text-shadow:0 0 15px #6C63FF;">Hi, I'm Deepmalya</h1>
 
-  <!-- Typing Animation Tagline (Updated) -->
+  <!-- Typing Animation Tagline -->
   <div style="margin: 0 auto; width: 450px;">
     <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=18&pause=1300&color=6C63FF&center=true&vCenter=true&width=450&lines=Engineering+ideas,+designing+dimensions;Blending+creativity+with+code;Programming+the+future,+one+idea+at+a+time" alt="typing animation" style="width:100%;" />
   </div>
@@ -73,27 +73,27 @@
   <!-- Profile Summary -->
   <div>
     <a href="https://github.com/Symphony007">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Symphony007&theme=radical&v=2" width="100%" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Symphony007&theme=radical&v=1" width="100%" />
     </a>
   </div>
 
-  <!-- Statistics Overview (Fixed Streak Stats) -->
+  <!-- Statistics Overview -->
   <div style="display:flex; justify-content:space-between; gap:10px;">
     <a href="https://github.com/Symphony007">
-      <img src="https://github-readme-stats.vercel.app/api?username=Symphony007&show_icons=true&theme=radical&hide_border=true&count_private=true&v=2" width="48%" />
+      <img src="https://github-readme-stats.vercel.app/api?username=Symphony007&show_icons=true&theme=radical&hide_border=true&count_private=true&v=1" width="48%" />
     </a>
     <a href="https://github.com/Symphony007">
-      <img src="https://github-readme-streak-stats-eight.vercel.app?user=Symphony007&theme=radical&hide_border=true" width="48%" alt="GitHub Streak Stats" />
+      <img src="https://github-readme-streak-stats-eight.vercel.app?user=Symphony007&theme=radical&hide_border=true&v=1" width="48%" alt="GitHub Streak Stats" />
     </a>
   </div>
 
   <!-- Most Used Languages -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Symphony007&layout=compact&theme=radical&hide_border=true&v=2" width="50%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Symphony007&layout=compact&theme=radical&hide_border=true&v=1" width="50%" />
 
   <!-- ACTIVITY GRAPH -->
   <h2 style="color:#8A2BE2;">📅 COMMIT HISTORY</h2>
   <hr style="border: none; height: 4px; background: linear-gradient(90deg, #00BFFF, #8A2BE2, #00BFFF); background-size: 300% 100%; animation: pulse 5s ease infinite; border-radius: 2px;">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Symphony007&theme=radical&hide_border=true&bg_color=000000&color=FFFFFF&line=6C63FF&point=FFD700&area=true&radius=0&custom_title=COMMIT+HISTORY&v=2" alt="Activity Graph"/>
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Symphony007&theme=radical&hide_border=true&bg_color=000000&color=FFFFFF&line=6C63FF&point=FFD700&area=true&radius=0&custom_title=COMMIT+HISTORY&v=1" alt="Activity Graph"/>
 
   <!-- CONNECT -->
   <h2 style="color:#8A2BE2;">🌐 CONNECT WITH ME</h2>
@@ -120,7 +120,6 @@
         <br><b>⚽ FOOTBALL</b><br><sub>KICKING IT ON & OFF SCREEN</sub>
       </td>
       <td align="center">
-        <!-- Fixed Chess Icon -->
         <img src="https://img.icons8.com/color/96/chess.png" width="60"/>
         <br><b>♟️ CHESS</b><br><sub>STRATEGIC MOVES IRL</sub>
       </td>
