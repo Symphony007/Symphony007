@@ -7,9 +7,9 @@
   <!-- Title -->
   <h1 style="font-weight:700; text-shadow:0 0 15px #6C63FF;">Hi, I'm Deepmalya</h1>
 
-  <!-- Typing Animation Tagline (Improved) -->
-  <div>
-    <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=22&pause=1300&color=6C63FF&center=true&vCenter=true&width=400&lines=BLENDING+CREATIVITY+WITH+CODE;DEVELOPER;DESIGNER;INNOVATOR;LIFELONG+LEARNER" alt="typing animation" />
+  <!-- Typing Animation Tagline (Wider, Improved) -->
+  <div style="margin: 0 auto; width: 450px;">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=22&pause=1300&color=6C63FF&center=true&vCenter=true&width=450&lines=BLENDING+CREATIVITY+WITH+CODE;DEVELOPER;DESIGNER;INNOVATOR;LIFELONG+LEARNER" alt="typing animation" style="width:100%;" />
   </div>
   
   <!-- Neon Divider -->
@@ -77,13 +77,13 @@
     </a>
   </div>
 
-  <!-- Statistics Overview (Fixed Second Part) -->
+  <!-- Statistics Overview (Fixed Streak Stats) -->
   <div style="display:flex; justify-content:space-between; gap:10px;">
     <a href="https://github.com/Symphony007">
       <img src="https://github-readme-stats.vercel.app/api?username=Symphony007&show_icons=true&theme=radical&hide_border=true&count_private=true&v=2" width="48%" />
     </a>
     <a href="https://github.com/Symphony007">
-      <img src="https://github-readme-streak-stats.herokuapp.com?user=Symphony007&theme=radical&hide_border=true" width="48%" alt="GitHub Streak Stats" />
+      <img src="https://github-readme-streak-stats-eight.vercel.app?user=Symphony007&theme=radical&hide_border=true" width="48%" alt="GitHub Streak Stats" />
     </a>
   </div>
 
@@ -120,6 +120,7 @@
         <br><b>⚽ FOOTBALL</b><br><sub>KICKING IT ON & OFF SCREEN</sub>
       </td>
       <td align="center">
+        <!-- Fixed Chess Icon -->
         <img src="https://img.icons8.com/color/96/chess.png" width="60"/>
         <br><b>♟️ CHESS</b><br><sub>STRATEGIC MOVES IRL</sub>
       </td>
@@ -152,3 +153,4 @@
   100% {background-position: 0% 50%;}
 }
 </style>
+
