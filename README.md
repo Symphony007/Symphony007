@@ -1,20 +1,15 @@
 <div align="center" style="background-color:#0A0A0A; color:#FFFFFF; padding:20px;">
 
   <!-- TITLE -->
-  <h1 style="font-weight:700; color:#FFFFFF;">
+  <h1 style="font-weight:700;">
     Hi, I'm <span style="color:#6C63FF;">Deepmalya</span>
   </h1>
 
-  <!-- TAGLINE -->
+  <!-- TAGLINE (STABLE TYPING SVG) -->
   <img
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&pause=1300&color=6C63FF&center=true&vCenter=true&width=480&lines=Engineering+ideas,+designing+dimensions;Blending+creativity+with+code;Programming+the+future,+one+idea+at+a+time"
-    alt="Typing animation"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1200&color=6C63FF&center=true&vCenter=true&width=480&lines=Engineering+ideas+%26+designing+dimensions;Blending+creativity+with+code;Programming+the+future%2C+one+idea+at+a+time"
+    alt="Typing SVG"
   />
-
-  <br><br>
-
-  <!-- SNAKE CONTRIBUTION (STABLE IF WORKFLOW EXISTS) -->
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" width="100%" />
 
   <br><br>
 
@@ -27,7 +22,7 @@
 
   <br><br>
 
-  <!-- SYSTEM INFO -->
+  <!-- SYSTEM INFORMATION -->
   <h2 style="color:#8A2BE2;">💾 SYSTEM INFORMATION</h2>
 
   <pre style="text-align:left; display:inline-block; background:#000000; padding:15px; border-radius:8px; font-size:13px;">
@@ -43,7 +38,7 @@
 ║  • Mastering Development        ║
 ║  • Exploring 3D Design          ║
 ║  • Diving into AI               ║
-║  • Building Cool Projects       ║
+║  • Building Real Projects       ║
 ║                                 ║
 ║  SYSTEM: OPERATIONAL            ║
 ║  CREATIVITY: MAXIMUM            ║
@@ -62,18 +57,11 @@
 
   <br><br>
 
-  <!-- GITHUB ANALYTICS -->
+  <!-- GITHUB ANALYTICS (STABLE SET ONLY) -->
   <h2 style="color:#8A2BE2;">📊 GITHUB ANALYTICS</h2>
 
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Symphony007&theme=radical"
-    width="100%"
-  />
-
-  <br>
-
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=Symphony007&show_icons=true&theme=radical&hide_border=true&count_private=true"
+    src="https://github-readme-stats.vercel.app/api?username=Symphony007&show_icons=true&theme=radical&hide_border=true"
     width="48%"
   />
   <img
@@ -87,6 +75,15 @@
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=Symphony007&layout=compact&theme=radical&hide_border=true"
     width="50%"
   />
+
+  <br><br>
+
+  <!-- FEATURED PROJECT -->
+  <h2 style="color:#8A2BE2;">🚀 FEATURED PROJECT</h2>
+
+  <a href="https://github.com/Symphony007/stonksbutwhy">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Symphony007&repo=stonksbutwhy&theme=radical&hide_border=true" />
+  </a>
 
   <br><br>
 
