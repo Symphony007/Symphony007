@@ -21,7 +21,7 @@
 
 ---
 
-<h3><code>$ whoami</code></h3>
+### $ whoami
 
 <table>
   <tr>
@@ -79,7 +79,7 @@
 </p>
 
 <p>
-  <img src="https://ghchart.rshah.org/58a6ff/Symphony007" width="100%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Symphony007&theme=github_dark" width="100%" />
 </p>
 
 <p>
