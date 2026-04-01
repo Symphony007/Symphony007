@@ -17,15 +17,11 @@
 
 <br>
 
----
-
-### Contribution
-
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
 
 ---
 
-### `$ whoami`
+<h3><code>$ whoami</code></h3>
 
 <table>
   <tr>
@@ -48,43 +44,42 @@
 
 ### Stack
 
-**Languages**
-
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](.)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](.)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](.)
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](.)
-[![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)](.)
-
-**Frontend**
-
-[![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)](.)
-[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](.)
-[![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](.)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)](.)
-
-**Backend / AI**
-
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](.)
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)](.)
-[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](.)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)](.)
-[![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)](.)
-
-**Tools**
-
-[![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](.)
-[![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)](.)
-[![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)](.)
-[![Blender](https://img.shields.io/badge/Blender-E87D0D?style=flat-square&logo=blender&logoColor=white)](.)
+<table>
+  <tr>
+    <td align="center" width="60px"><img src="https://skillicons.dev/icons?i=python&theme=dark" width="48"/><br/><sub>Python</sub></td>
+    <td align="center" width="60px"><img src="https://skillicons.dev/icons?i=typescript&theme=dark" width="48"/><br/><sub>TypeScript</sub></td>
+    <td align="center" width="60px"><img src="https://skillicons.dev/icons?i=javascript&theme=dark" width="48"/><br/><sub>JavaScript</sub></td>
+    <td align="center" width="60px"><img src="https://skillicons.dev/icons?i=java&theme=dark" width="48"/><br/><sub>Java</sub></td>
+    <td align="center" width="60px"><img src="https://skillicons.dev/icons?i=c&theme=dark" width="48"/><br/><sub>C</sub></td>
+    <td align="center" width="60px"><img src="https://skillicons.dev/icons?i=react&theme=dark" width="48"/><br/><sub>React</sub></td>
+    <td align="center" width="60px"><img src="https://skillicons.dev/icons?i=vite&theme=dark" width="48"/><br/><sub>Vite</sub></td>
+    <td align="center" width="60px"><img src="https://skillicons.dev/icons?i=html&theme=dark" width="48"/><br/><sub>HTML</sub></td>
+    <td align="center" width="60px"><img src="https://skillicons.dev/icons?i=css&theme=dark" width="48"/><br/><sub>CSS</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="60px"><img src="https://skillicons.dev/icons?i=fastapi&theme=dark" width="48"/><br/><sub>FastAPI</sub></td>
+    <td align="center" width="60px"><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="48"/><br/><sub>Node.js</sub></td>
+    <td align="center" width="60px"><img src="https://skillicons.dev/icons?i=pytorch&theme=dark" width="48"/><br/><sub>PyTorch</sub></td>
+    <td align="center" width="60px"><img src="https://skillicons.dev/icons?i=opencv&theme=dark" width="48"/><br/><sub>OpenCV</sub></td>
+    <td align="center" width="60px"><img src="https://skillicons.dev/icons?i=sklearn&theme=dark" width="48"/><br/><sub>scikit-learn</sub></td>
+    <td align="center" width="60px"><img src="https://skillicons.dev/icons?i=git&theme=dark" width="48"/><br/><sub>Git</sub></td>
+    <td align="center" width="60px"><img src="https://skillicons.dev/icons?i=linux&theme=dark" width="48"/><br/><sub>Linux</sub></td>
+    <td align="center" width="60px"><img src="https://skillicons.dev/icons?i=figma&theme=dark" width="48"/><br/><sub>Figma</sub></td>
+    <td align="center" width="60px"><img src="https://skillicons.dev/icons?i=blender&theme=dark" width="48"/><br/><sub>Blender</sub></td>
+  </tr>
+</table>
 
 ---
 
 ### GitHub
 
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=Symphony007&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Symphony007&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" width="49%" />
   <img src="https://streak-stats.demolab.com?user=Symphony007&theme=github-dark-blue&hide_border=true" width="49%" />
+</p>
+
+<p>
+  <img src="https://ghchart.rshah.org/58a6ff/Symphony007" width="100%" />
 </p>
 
 <p>
