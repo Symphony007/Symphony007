@@ -73,7 +73,7 @@
 
 ### GitHub
 
-<img src="https://github-readme-stats.vercel.app/api?username=Symphony007&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" width="49%" /><img src="https://streak-stats.demolab.com?user=Symphony007&theme=github-dark-blue&hide_border=true" width="49%" />
+<img src="https://github-readme-stats.shion.dev/api?username=Symphony007&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" width="49%" /><img src="https://streak-stats.demolab.com?user=Symphony007&theme=github-dark-blue&hide_border=true" width="49%" />
 
 <br/>
 
