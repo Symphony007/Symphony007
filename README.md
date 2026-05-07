@@ -88,7 +88,7 @@
 
 <br/>
 
-<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Symphony007&theme=github_dark&hide_border=true&layout=compact&count_private=true&langs_count=8" width="99%" />
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Symphony007&theme=github_dark&hide_border=true&layout=compact&count_private=true&langs_count=8" width="60%" />
 
 <br>
 
