@@ -1,4 +1,4 @@
- <div align="center">
+<div align="center">
 
 <br>
 
@@ -94,7 +94,13 @@
 
 ### Codebase Statistics
 
-<img src="https://raw.githubusercontent.com/Symphony007/Symphony007/main/assets/loc-stats.svg" width="100%" alt="Live Codebase Statistics" />
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/Symphony007/Symphony007/main/assets/loc-stats.svg"
+    alt="Live Codebase Statistics"
+    width="50%"
+  />
+</p>
 
 <br>
 
