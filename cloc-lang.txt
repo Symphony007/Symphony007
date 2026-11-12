@@ -1,0 +1,5 @@
+
+Minecraft Function
+    filter remove_matches ^\s*#
+    extension mcfunction
+    3rd_gen_scale 1
