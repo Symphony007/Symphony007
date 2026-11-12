@@ -1,0 +1,57 @@
+
+name: Update LOC Statistics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+    paths:
+      - "loc-repos.txt"
+      - "scripts/generate_loc.py"
+      - ".github/workflows/loc-counter.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update-loc:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cloc git
+
+      - name: Generate LOC statistics
+        env:
+          LOC_GITHUB_TOKEN: ${{ secrets.LOC_STATS_TOKEN }}
+        run: |
+          python scripts/generate_loc.py
+
+      - name: Commit updated statistics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/loc-stats.svg
+
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update LOC statistics"
+            git push
+          else
+            echo "Statistics unchanged."
+          fi
