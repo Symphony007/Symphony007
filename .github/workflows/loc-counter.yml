@@ -13,6 +13,7 @@ on:
     paths:
       - "loc-repos.txt"
       - "scripts/generate_loc.py"
+      - "cloc-lang.txt"
       - ".github/workflows/loc-counter.yml"
 
 permissions:
