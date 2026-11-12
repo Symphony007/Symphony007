@@ -1,0 +1,9 @@
+
+# Repositories to include in LOC statistics
+
+# Add one repository per line:
+# owner/repository
+
+Symphony007/your-project-one
+Symphony007/your-project-two
+Symphony007/your-project-three
