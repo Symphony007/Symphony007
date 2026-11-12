@@ -3,37 +3,91 @@ import os
 import re
 import json
 import base64
-import shutil
 import subprocess
 import tempfile
+
 from pathlib import Path
 from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parent.parent
+
 REPO_FILE = ROOT / "loc-repos.txt"
+LANG_FILE = ROOT / "cloc-lang.txt"
 OUTPUT = ROOT / "assets" / "loc-stats.svg"
 
+# Directories that should never contribute to project LOC.
 EXCLUDED_DIRS = [
-    "node_modules", "vendor", "dist", "build",
-    ".next", ".nuxt", ".cache", "coverage",
-    "__pycache__", ".venv", "venv", "env",
-    "target", "out", "bin", "obj", "Pods",
-    "DerivedData", "site-packages",
-    "bower_components"
+    "node_modules",
+    "vendor",
+    "dist",
+    "build",
+    ".next",
+    ".nuxt",
+    ".output",
+    ".cache",
+    "cache",
+    "coverage",
+    "__pycache__",
+    ".venv",
+    "venv",
+    "env",
+    "site-packages",
+    "bower_components",
+    "target",
+    "out",
+    "bin",
+    "obj",
+    "Pods",
+    "DerivedData",
+    ".gradle",
+    ".idea",
+    ".pytest_cache",
+    ".mypy_cache",
+    ".ruff_cache",
+    ".tox",
+    "htmlcov",
+    "storybook-static",
+    "playwright-report",
+    "test-results",
+    ".turbo",
+]
+
+# Data, documentation and generated-file extensions.
+EXCLUDED_EXTENSIONS = [
+    "json",
+    "json5",
+    "jsonl",
+    "lock",
+    "map",
+    "md",
+    "mdx",
+    "txt",
+    "svg",
+    "ipynb",
+    "csv",
 ]
 
 COLORS = [
-    "#58A6FF", "#3FB950", "#D2A8FF",
-    "#F0883E", "#F778BA", "#79C0FF",
-    "#E3B341", "#56D4DD", "#A5D6FF",
-    "#8B949E"
+    "#58A6FF",
+    "#3FB950",
+    "#D2A8FF",
+    "#F0883E",
+    "#F778BA",
+    "#79C0FF",
+    "#E3B341",
+    "#56D4DD",
+    "#A5D6FF",
+    "#8B949E",
 ]
 
 
 def read_repositories():
+    if not REPO_FILE.exists():
+        raise FileNotFoundError("loc-repos.txt not found")
+
     repos = []
 
-    for line in REPO_FILE.read_text().splitlines():
+    for line in REPO_FILE.read_text(encoding="utf-8").splitlines():
         line = line.strip()
 
         if not line or line.startswith("#"):
@@ -68,11 +122,16 @@ def clone_repository(repo, destination):
 
     subprocess.run(
         [
-            "git", "clone", "--quiet",
-            "--depth", "1", url, str(destination)
+            "git",
+            "clone",
+            "--quiet",
+            "--depth",
+            "1",
+            url,
+            str(destination),
         ],
         check=True,
-        env=env
+        env=env,
     )
 
 
@@ -83,16 +142,26 @@ def count_repository(repo, destination):
         "cloc",
         "--json",
         "--quiet",
-        "--vcs", "git",
+        "--vcs",
+        "git",
+        f"--read-lang-def={LANG_FILE}",
         f"--exclude-dir={','.join(EXCLUDED_DIRS)}",
-        str(destination)
+        f"--exclude-ext={','.join(EXCLUDED_EXTENSIONS)}",
+
+        # Exclude minified files, source maps and lockfiles.
+        r"--not-match-f=.*(-lock\.yaml|\.lock|\.min\.(js|css)|\.map)$",
+
+        # Ignore generated files recognised by cloc.
+        "--no-autogen",
+
+        str(destination),
     ]
 
     result = subprocess.run(
         command,
         capture_output=True,
         text=True,
-        check=True
+        check=True,
     )
 
     data = json.loads(result.stdout)
@@ -109,19 +178,21 @@ def count_repository(repo, destination):
         if code > 0:
             languages[language] = {
                 "code": code,
-                "files": files
+                "files": files,
             }
 
     return languages
 
 
 def generate_svg(languages, total, repo_count, file_count):
+
     sorted_languages = sorted(
         languages.items(),
         key=lambda item: item[1]["code"],
-        reverse=True
+        reverse=True,
     )
 
+    # Display the top 8 languages.
     visible = sorted_languages[:8]
 
     if len(sorted_languages) > 8:
@@ -130,10 +201,15 @@ def generate_svg(languages, total, repo_count, file_count):
             for _, stats in sorted_languages[8:]
         )
 
-        visible.append(("Other", {
-            "code": other_code,
-            "files": 0
-        }))
+        visible.append(
+            (
+                "Other",
+                {
+                    "code": other_code,
+                    "files": 0,
+                },
+            )
+        )
 
     width = 760
     height = 180 + len(visible) * 57 + 35
@@ -174,15 +250,23 @@ def generate_svg(languages, total, repo_count, file_count):
         f'fill="#C9D1D9">{file_count:,} source files</text>',
 
         '<line x1="32" y1="151" x2="728" y2="151" '
-        'stroke="#30363D"/>'
+        'stroke="#30363D"/>',
     ]
 
     y = 190
 
     for index, (language, stats) in enumerate(visible):
         code = stats["code"]
-        percentage = code / total * 100 if total else 0
+
+        percentage = (
+            code / total * 100
+            if total > 0
+            else 0
+        )
+
         color = COLORS[index % len(COLORS)]
+
+        bar_width = 696 * percentage / 100
 
         parts.extend([
             f'<text x="32" y="{y}" font-size="14" '
@@ -196,8 +280,8 @@ def generate_svg(languages, total, repo_count, file_count):
             f'height="9" rx="5" fill="#30363D"/>',
 
             f'<rect x="32" y="{y + 13}" '
-            f'width="{696 * percentage / 100:.2f}" '
-            f'height="9" rx="5" fill="{color}"/>'
+            f'width="{bar_width:.2f}" '
+            f'height="9" rx="5" fill="{color}"/>',
         ])
 
         y += 57
@@ -205,24 +289,28 @@ def generate_svg(languages, total, repo_count, file_count):
     parts.extend([
         f'<text x="32" y="{height - 18}" font-size="11" '
         f'fill="#6E7681">Generated automatically · cloc · '
-        f'Excludes blank lines and comments</text>',
+        f'Code lines only · Comments and blanks excluded</text>',
 
-        '</g></svg>'
+        '</g></svg>',
     ])
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
 
     OUTPUT.write_text(
         "\n".join(parts),
-        encoding="utf-8"
+        encoding="utf-8",
     )
 
 
 def main():
+
     repos = read_repositories()
 
     if not repos:
         raise RuntimeError("No repositories configured.")
+
+    if not LANG_FILE.exists():
+        raise FileNotFoundError("cloc-lang.txt not found")
 
     all_languages = {}
     total_files = 0
@@ -231,20 +319,26 @@ def main():
         temp_path = Path(temp)
 
         for index, repo in enumerate(repos):
-            print(f"Scanning {repo}...")
+
+            print(f"\nScanning {repo}...")
 
             destination = temp_path / f"repo-{index}"
 
-            languages = count_repository(repo, destination)
+            languages = count_repository(
+                repo,
+                destination,
+            )
 
             for language, stats in languages.items():
+
                 if language not in all_languages:
                     all_languages[language] = {
                         "code": 0,
-                        "files": 0
+                        "files": 0,
                     }
 
                 all_languages[language]["code"] += stats["code"]
+
                 all_languages[language]["files"] += stats["files"]
 
                 total_files += stats["files"]
@@ -258,15 +352,30 @@ def main():
         all_languages,
         total_loc,
         len(repos),
-        total_files
+        total_files,
     )
 
-    print("\nLOC REPORT")
-    print(f"Total LOC: {total_loc:,}")
-    print(f"Total files: {total_files:,}")
-    print(f"Repositories: {len(repos)}")
-    print(f"Languages: {len(all_languages)}")
-    print(f"SVG: {OUTPUT}")
+    print("\n" + "=" * 40)
+    print("         LOC REPORT")
+    print("=" * 40)
+
+    for language, stats in sorted(
+        all_languages.items(),
+        key=lambda item: item[1]["code"],
+        reverse=True,
+    ):
+        print(
+            f"{language:<22} "
+            f"{stats['code']:>10,} LOC"
+        )
+
+    print("-" * 40)
+    print(f"TOTAL LOC:       {total_loc:,}")
+    print(f"TOTAL FILES:     {total_files:,}")
+    print(f"REPOSITORIES:    {len(repos)}")
+    print("=" * 40)
+
+    print(f"\nSVG generated: {OUTPUT}")
 
 
 if __name__ == "__main__":
