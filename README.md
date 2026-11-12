@@ -98,7 +98,7 @@
   <img
     src="https://raw.githubusercontent.com/Symphony007/Symphony007/main/assets/loc-stats.svg"
     alt="Live Codebase Statistics"
-    width="50%"
+    width="70%"
   />
 </p>
 
