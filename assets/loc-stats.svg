@@ -10,46 +10,46 @@
 <rect width="760" height="728" rx="16" fill="url(#bg)" stroke="#30363D"/>
 <g font-family="Segoe UI, Arial, sans-serif">
 <text x="32" y="40" font-size="15" fill="#8B949E" font-weight="600">CODEBASE STATISTICS</text>
-<text x="32" y="103" font-size="48" fill="#F0F6FC" font-weight="700">831,516</text>
+<text x="32" y="103" font-size="48" fill="#F0F6FC" font-weight="700">78,990</text>
 <text x="34" y="128" font-size="12" fill="#8B949E">LINES OF CODE</text>
 <text x="550" y="76" font-size="14" fill="#C9D1D9">17 repositories</text>
-<text x="550" y="100" font-size="14" fill="#C9D1D9">4,350 source files</text>
+<text x="550" y="100" font-size="14" fill="#C9D1D9">1,770 source files</text>
 <line x1="32" y1="151" x2="728" y2="151" stroke="#30363D"/>
-<text x="32" y="190" font-size="14" fill="#E6EDF3">JSON</text>
-<text x="728" y="190" text-anchor="end" font-size="13" fill="#8B949E">757,565 LOC · 91.1%</text>
+<text x="32" y="190" font-size="14" fill="#E6EDF3">Python</text>
+<text x="728" y="190" text-anchor="end" font-size="13" fill="#8B949E">25,969 LOC · 32.9%</text>
 <rect x="32" y="203" width="696" height="9" rx="5" fill="#30363D"/>
-<rect x="32" y="203" width="634.10" height="9" rx="5" fill="#58A6FF"/>
-<text x="32" y="247" font-size="14" fill="#E6EDF3">Python</text>
-<text x="728" y="247" text-anchor="end" font-size="13" fill="#8B949E">25,884 LOC · 3.1%</text>
+<rect x="32" y="203" width="228.82" height="9" rx="5" fill="#58A6FF"/>
+<text x="32" y="247" font-size="14" fill="#E6EDF3">TypeScript</text>
+<text x="728" y="247" text-anchor="end" font-size="13" fill="#8B949E">18,470 LOC · 23.4%</text>
 <rect x="32" y="260" width="696" height="9" rx="5" fill="#30363D"/>
-<rect x="32" y="260" width="21.67" height="9" rx="5" fill="#3FB950"/>
-<text x="32" y="304" font-size="14" fill="#E6EDF3">TypeScript</text>
-<text x="728" y="304" text-anchor="end" font-size="13" fill="#8B949E">18,470 LOC · 2.2%</text>
+<rect x="32" y="260" width="162.74" height="9" rx="5" fill="#3FB950"/>
+<text x="32" y="304" font-size="14" fill="#E6EDF3">Minecraft Function</text>
+<text x="728" y="304" text-anchor="end" font-size="13" fill="#8B949E">12,203 LOC · 15.4%</text>
 <rect x="32" y="317" width="696" height="9" rx="5" fill="#30363D"/>
-<rect x="32" y="317" width="15.46" height="9" rx="5" fill="#D2A8FF"/>
+<rect x="32" y="317" width="107.52" height="9" rx="5" fill="#D2A8FF"/>
 <text x="32" y="361" font-size="14" fill="#E6EDF3">HTML</text>
-<text x="728" y="361" text-anchor="end" font-size="13" fill="#8B949E">11,961 LOC · 1.4%</text>
+<text x="728" y="361" text-anchor="end" font-size="13" fill="#8B949E">11,961 LOC · 15.1%</text>
 <rect x="32" y="374" width="696" height="9" rx="5" fill="#30363D"/>
-<rect x="32" y="374" width="10.01" height="9" rx="5" fill="#F0883E"/>
+<rect x="32" y="374" width="105.39" height="9" rx="5" fill="#F0883E"/>
 <text x="32" y="418" font-size="14" fill="#E6EDF3">JSX</text>
-<text x="728" y="418" text-anchor="end" font-size="13" fill="#8B949E">4,240 LOC · 0.5%</text>
+<text x="728" y="418" text-anchor="end" font-size="13" fill="#8B949E">4,240 LOC · 5.4%</text>
 <rect x="32" y="431" width="696" height="9" rx="5" fill="#30363D"/>
-<rect x="32" y="431" width="3.55" height="9" rx="5" fill="#F778BA"/>
+<rect x="32" y="431" width="37.36" height="9" rx="5" fill="#F778BA"/>
 <text x="32" y="475" font-size="14" fill="#E6EDF3">CSS</text>
-<text x="728" y="475" text-anchor="end" font-size="13" fill="#8B949E">3,579 LOC · 0.4%</text>
+<text x="728" y="475" text-anchor="end" font-size="13" fill="#8B949E">3,579 LOC · 4.5%</text>
 <rect x="32" y="488" width="696" height="9" rx="5" fill="#30363D"/>
-<rect x="32" y="488" width="3.00" height="9" rx="5" fill="#79C0FF"/>
+<rect x="32" y="488" width="31.54" height="9" rx="5" fill="#79C0FF"/>
 <text x="32" y="532" font-size="14" fill="#E6EDF3">JavaScript</text>
-<text x="728" y="532" text-anchor="end" font-size="13" fill="#8B949E">2,186 LOC · 0.3%</text>
+<text x="728" y="532" text-anchor="end" font-size="13" fill="#8B949E">2,186 LOC · 2.8%</text>
 <rect x="32" y="545" width="696" height="9" rx="5" fill="#30363D"/>
-<rect x="32" y="545" width="1.83" height="9" rx="5" fill="#E3B341"/>
-<text x="32" y="589" font-size="14" fill="#E6EDF3">Markdown</text>
-<text x="728" y="589" text-anchor="end" font-size="13" fill="#8B949E">2,171 LOC · 0.3%</text>
+<rect x="32" y="545" width="19.26" height="9" rx="5" fill="#E3B341"/>
+<text x="32" y="589" font-size="14" fill="#E6EDF3">YAML</text>
+<text x="728" y="589" text-anchor="end" font-size="13" fill="#8B949E">316 LOC · 0.4%</text>
 <rect x="32" y="602" width="696" height="9" rx="5" fill="#30363D"/>
-<rect x="32" y="602" width="1.82" height="9" rx="5" fill="#56D4DD"/>
+<rect x="32" y="602" width="2.78" height="9" rx="5" fill="#56D4DD"/>
 <text x="32" y="646" font-size="14" fill="#E6EDF3">Other</text>
-<text x="728" y="646" text-anchor="end" font-size="13" fill="#8B949E">5,460 LOC · 0.7%</text>
+<text x="728" y="646" text-anchor="end" font-size="13" fill="#8B949E">66 LOC · 0.1%</text>
 <rect x="32" y="659" width="696" height="9" rx="5" fill="#30363D"/>
-<rect x="32" y="659" width="4.57" height="9" rx="5" fill="#A5D6FF"/>
-<text x="32" y="710" font-size="11" fill="#6E7681">Generated automatically · cloc · Excludes blank lines and comments</text>
+<rect x="32" y="659" width="0.58" height="9" rx="5" fill="#A5D6FF"/>
+<text x="32" y="710" font-size="11" fill="#6E7681">Generated automatically · cloc · Code lines only · Comments and blanks excluded</text>
 </g></svg>
