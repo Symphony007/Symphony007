@@ -10,7 +10,7 @@
 <rect width="760" height="728" rx="16" fill="url(#bg)" stroke="#30363D"/>
 <g font-family="Segoe UI, Arial, sans-serif">
 <text x="32" y="40" font-size="15" fill="#8B949E" font-weight="600">CODEBASE STATISTICS</text>
-<text x="32" y="103" font-size="48" fill="#F0F6FC" font-weight="700">78,990</text>
+<text x="32" y="103" font-size="48" fill="#F0F6FC" font-weight="700">78,991</text>
 <text x="34" y="128" font-size="12" fill="#8B949E">LINES OF CODE</text>
 <text x="550" y="76" font-size="14" fill="#C9D1D9">17 repositories</text>
 <text x="550" y="100" font-size="14" fill="#C9D1D9">1,770 source files</text>
@@ -44,9 +44,9 @@
 <rect x="32" y="545" width="696" height="9" rx="5" fill="#30363D"/>
 <rect x="32" y="545" width="19.26" height="9" rx="5" fill="#E3B341"/>
 <text x="32" y="589" font-size="14" fill="#E6EDF3">YAML</text>
-<text x="728" y="589" text-anchor="end" font-size="13" fill="#8B949E">316 LOC · 0.4%</text>
+<text x="728" y="589" text-anchor="end" font-size="13" fill="#8B949E">317 LOC · 0.4%</text>
 <rect x="32" y="602" width="696" height="9" rx="5" fill="#30363D"/>
-<rect x="32" y="602" width="2.78" height="9" rx="5" fill="#56D4DD"/>
+<rect x="32" y="602" width="2.79" height="9" rx="5" fill="#56D4DD"/>
 <text x="32" y="646" font-size="14" fill="#E6EDF3">Other</text>
 <text x="728" y="646" text-anchor="end" font-size="13" fill="#8B949E">66 LOC · 0.1%</text>
 <rect x="32" y="659" width="696" height="9" rx="5" fill="#30363D"/>
