@@ -1,9 +1,20 @@
 
-# Repositories to include in LOC statistics
+# ALL MY GITHUB REPOSITORIES
 
-# Add one repository per line:
-# owner/repository
-
-Symphony007/your-project-one
-Symphony007/your-project-two
-Symphony007/your-project-three
+Symphony007/Symphony007
+Symphony007/hazard_evac
+Symphony007/Design_taste_library
+Symphony007/RandomDrops_MC
+Symphony007/Learn_SQL
+Symphony007/scry
+Symphony007/Weave---VirtualDOM
+Symphony007/gta-leetcode-extension
+Symphony007/MedIQ-frontend
+Symphony007/mediq_full
+Symphony007/Deepmalya_portfolio
+Symphony007/DSA-Master-Sheet
+Symphony007/SIH_Drone_Algo
+Symphony007/HMIS_SWE
+Symphony007/gta-leetcode-privacy
+Symphony007/fruit-ninja-bot
+Symphony007/how-is-my-stock
